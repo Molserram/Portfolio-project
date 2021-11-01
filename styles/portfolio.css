@@ -1,0 +1,22 @@
+body {
+  font-family: "Sora", sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 63px;
+  letter-spacing: 0.003em;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  letter-spacing: 0.003em;
+}
+
+.social-icons {
+  font-family: Font Awesome 5 Brands;
+}
