@@ -20,25 +20,28 @@ h5,
 h6 {
   color: var(--body-font);
   font-family: var(--font-family);
-  font-weight: 400;
 }
 
-h1,
-h2 {
+h1 {
   font-size: 50px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+h3 {
+  font-weight: 600;
+  margin: 0px;
+  text-transform: uppercase;
 }
 
 p {
-  font-family: var(--font-family);
-  font-style: normal;
-  font-weight: 400;
   font-size: 25px;
-  line-height: 31px;
 }
 
 .text-highlight {
   color: var(--heading-font-family);
-  font-weight: 500;
+  font-weight: 600;
+  font-family: var(--font-family);
 }
 
 .hero {
@@ -53,12 +56,12 @@ p {
 
 .header-columns {
   text-align: left;
-  padding-right: 40px;
+  padding-right: 70px;
 }
 
 .main-links {
   color: var(--neutral-color);
-  background: var(--background-color-color);
+  background: var(--secondary-color);
   border-radius: 8px;
   align-items: center;
   padding: 20px 50px;
@@ -67,7 +70,7 @@ p {
 }
 
 .hero-image {
-  box-shadow: 0px 16px 40px rgba(109, 141, 173, 0.4);
+  box-shadow: 0px 10px 20px rgba(24, 126, 136, 0.4);
   border-radius: 20px;
   max-width: 200px;
 }
@@ -89,11 +92,11 @@ p {
   }
 
   .hero h1 {
-    font-size: 25px;
+    font-size: 30px;
+    line-height: 40px;
     margin-bottom: 30px;
     margin-top: 0;
   }
-
   .text-highlight {
     font-size: 40px;
   }
