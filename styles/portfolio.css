@@ -1,12 +1,15 @@
 body {
   font-family: "Sora", sans-serif;
+
+  margin: 60px auto;
+  max-width: 1160px;
+  margin-top: 100px;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: 500;
-  font-size: 50px;
-  line-height: 63px;
-  letter-spacing: 0.003em;
+  font-size: 40px;
 }
 
 p {
@@ -17,6 +20,20 @@ p {
   letter-spacing: 0.003em;
 }
 
+.text-highlight {
+  color: #7471fb;
+}
+
 .social-icons {
   font-family: Font Awesome 5 Brands;
+}
+
+.header {
+  text-align: left;
+}
+
+.hero-image {
+  width: 196px;
+  height: 196px;
+  box-shadow: 0px 16px 40px rgba(109, 141, 173, 0.4);
 }
