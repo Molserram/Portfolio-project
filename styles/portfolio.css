@@ -1,8 +1,5 @@
 body {
   font-family: "Sora", sans-serif;
-  margin: 60px auto;
-  max-width: 1160px;
-  margin-top: 150px;
 }
 
 h1,
@@ -23,12 +20,19 @@ p {
   color: #7471fb;
 }
 
+.hero {
+  margin: 0px auto;
+  padding: 120px;
+  background-color: rgba(224, 255, 250, 0.52);
+}
+
 .social-icons {
   font-family: Font Awesome 5 Brands;
 }
 
 .header {
   text-align: left;
+  max-width: 1160px;
 }
 
 .main-links {
@@ -48,14 +52,13 @@ p {
 }
 
 @media (max-width: 995px) {
-  body {
-    margin-top: 10px;
-    padding: 20px;
+  .hero {
+    padding: 50px 20px;
   }
 
   .header {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 40px;
   }
 
   .header-columns {
