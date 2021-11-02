@@ -1,43 +1,64 @@
+:root {
+  --font-family: "Sora", sans-serif;
+  --heading-font-family: #7471fb;
+  --secondary-color: #4fc4cf;
+  --body-font: #2e3a59;
+  --background-color: rgba(224, 255, 250, 0.58);
+  --neutral-color: white;
+}
+
 body {
-  font-family: "Sora", sans-serif;
+  font-family: var(--font-family);
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--body-font);
+  font-family: var(--font-family);
+  font-weight: 400;
 }
 
 h1,
 h2 {
-  font-weight: 500;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 p {
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 31px;
-  letter-spacing: 0.003em;
 }
 
 .text-highlight {
-  color: #7471fb;
+  color: var(--heading-font-family);
+  font-weight: 500;
 }
 
 .hero {
-  margin: 0px auto;
-  padding: 120px;
-  background-color: rgba(224, 255, 250, 0.52);
+  padding: 140px 20px;
+  background-color: var(--background-color);
+  text-align: center;
 }
 
-.social-icons {
-  font-family: Font Awesome 5 Brands;
+.hero container {
+  text-align: center;
 }
 
-.header {
+.header-columns {
   text-align: left;
-  max-width: 1160px;
+  padding-right: 40px;
 }
 
 .main-links {
-  color: white;
-  background: #4fc4cf;
+  color: var(--neutral-color);
+  background: var(--background-color-color);
   border-radius: 8px;
   align-items: center;
   padding: 20px 50px;
@@ -51,9 +72,9 @@ p {
   max-width: 200px;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 992px) {
   .hero {
-    padding: 50px 20px;
+    padding: 60px 20px;
   }
 
   .header {
@@ -63,12 +84,18 @@ p {
 
   .header-columns {
     margin-top: 25px;
+    text-align: center;
+    padding: 0px;
   }
 
-  .header h1 {
-    font-size: 32px;
+  .hero h1 {
+    font-size: 25px;
     margin-bottom: 30px;
     margin-top: 0;
+  }
+
+  .text-highlight {
+    font-size: 40px;
   }
 
   .hero-image {
