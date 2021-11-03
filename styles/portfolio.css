@@ -4,7 +4,7 @@
   --secondary-color: #1fbecc;
   --body-font: #2e3a59;
   --background-color: linear-gradient(
-    to top,
+    to top,white,
     rgba(199, 198, 255, 0.5),
     rgba(200, 253, 244, 0.7),
     white 100%
