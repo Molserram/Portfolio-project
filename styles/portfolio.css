@@ -61,9 +61,25 @@ h2 {
   padding-right: 70px;
 }
 
+a:hover{
+  color: var(--body-font);
+}
+
 .main-links {
   color: var(--neutral-color);
   background: var(--secondary-color);
+  border-radius: 8px;
+  align-items: center;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.secondary-links {
+  color: var(--secondary-color);
+  background: var(--neutral-color);
+  border: 1.5px solid;
+  border-color: var(--secondary-color);
   border-radius: 8px;
   align-items: center;
   padding: 20px 50px;
@@ -125,7 +141,7 @@ i {
   .hero-image {
     padding-bottom: 0px;
     margin: 0px auto;
-    max-width: 150px;
+    max-width: 95px;
   }
 }
 
