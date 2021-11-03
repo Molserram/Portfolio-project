@@ -5,6 +5,7 @@
   --body-font: #2e3a59;
   --background-color: rgba(224, 255, 250, 0.58);
   --neutral-color: white;
+  --icon-color: rgba(46, 58, 89, 0.51);
 }
 
 body {
@@ -31,11 +32,12 @@ h1 {
 h3 {
   font-weight: 600;
   margin: 0px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
-p {
-  font-size: 25px;
+h2 {
+  color: var(--heading-font-family);
 }
 
 .text-highlight {
@@ -75,6 +77,25 @@ p {
   max-width: 200px;
 }
 
+.project-description {
+  text-align: left;
+  padding: 20px;
+}
+
+.project-description p,
+.project-description h3 {
+  font-size: 16px;
+}
+
+.project-description a {
+  text-decoration: none;
+  color: var(--body-color);
+}
+
+i {
+  color: var(--icon-color);
+}
+
 @media (max-width: 992px) {
   .hero {
     padding: 60px 20px;
@@ -105,5 +126,12 @@ p {
     padding-bottom: 0px;
     margin: 0px auto;
     max-width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-deck {
+    display: flex;
+    flex-flow: row wrap;
   }
 }
