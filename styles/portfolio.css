@@ -128,6 +128,18 @@ a:hover {
   color: var(--icon-color);
 }
 
+.card {
+  box-shadow: 0px 0px 10px rgba(220, 208, 255, 0.5);
+  border-radius: 20px;
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0.795);
+}
+
+.card-img-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 @media (max-width: 992px) {
   body {
     margin: 0;
