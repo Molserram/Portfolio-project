@@ -9,13 +9,14 @@
     rgba(200, 253, 244, 0.5),
     white 100%
   );
-  --neutral-color: white;
+  --neutral-color: rgba(255, 255, 255, 0.85);
   --icon-color: rgba(46, 58, 89, 0.51);
 }
 
 body {
   font-family: var(--font-family);
   text-align: center;
+  background: var(--background-color);
 }
 
 h1,
@@ -57,10 +58,18 @@ h2 {
   text-align: center;
 }
 
+.projects-row,
+.projects-templates {
+  padding: 50px 0px;
+}
+
 .projects-row {
-  padding: 40px 0px;
-  background-color: var(--neutral-color-color);
   text-align: center;
+  background: var(--neutral-color);
+}
+
+.projects-templates {
+  background: transparent;
 }
 
 .hero container {
