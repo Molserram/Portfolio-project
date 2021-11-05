@@ -39,6 +39,12 @@ h3 {
   margin: 0px;
   margin-bottom: 10px;
   text-transform: uppercase;
+  text-align: left;
+}
+
+p {
+  font-size: 25px;
+  text-align: left;
 }
 
 h2 {
@@ -71,8 +77,15 @@ h2 {
   background: transparent;
 }
 
-.hero container {
+.top-page {
   text-align: center;
+  padding: 140px 20px;
+  background: var(--neutral-color);
+}
+
+.top-page h1 {
+  max-width: 1160px;
+  text-align: left;
 }
 
 .header-columns {
@@ -131,7 +144,7 @@ a:hover {
   box-shadow: 0px 0px 10px rgb(0 0 0 / 5%);
   border-radius: 20px;
   border: 0px;
-  background-color:rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
 }
 
@@ -143,6 +156,11 @@ a:hover {
 .card-img-top {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+img {
+  border-radius: 20px;
+  width: 100%;
 }
 
 @media (max-width: 992px) {
@@ -183,7 +201,9 @@ a:hover {
   }
 
   .project-description {
-    text-align: center;
+    text-align: left;
+  max-width: 1320px;
+
   }
 
   .card-deck img {
