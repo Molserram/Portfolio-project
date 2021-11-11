@@ -175,12 +175,12 @@ a:hover {
 }
 
 .card:hover,
-.about-content img {
+.content-columns img {
   box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
   transition: ease-in;
 }
 
-.about-content img {
+.content-columns img {
   border-radius: 20px;
   margin-right: 20px;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 15%);
@@ -190,7 +190,7 @@ a:hover {
   border-top-right-radius: 20px;
 }
 
-.certificates {
+.content-columns {
   max-width: 1090px;
   margin: 0px auto;
   padding: 0px;
@@ -203,7 +203,7 @@ a:hover {
   }
   .hero,
   .top-page,
-  .about-content {
+  .content-columns {
     padding: 40px 20px;
   }
 
@@ -262,7 +262,7 @@ a:hover {
     text-align: center;
   }
 
-  .about-content img {
+  .content-columns img {
     display: flex;
     text-align: center;
     margin: 0px;
