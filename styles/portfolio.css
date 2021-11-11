@@ -63,7 +63,6 @@ ul {
 }
 
 strong {
-  font-size: 20px;
   color: var(--body-font);
   text-transform: uppercase;
 }
@@ -155,22 +154,19 @@ a:hover {
   max-width: 200px;
 }
 
-.project-description {
+.project-description,
+.text-box {
   text-align: left;
   padding: 20px;
 }
 
 .project-description h3 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .project-description a {
   text-decoration: none;
   color: var(--icon-color);
-}
-
-.text-box {
-  text-align: left;
 }
 
 .card {
