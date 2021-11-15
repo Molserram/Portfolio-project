@@ -64,6 +64,10 @@ ul {
   max-width: 540px;
 }
 
+li {
+  text-align: left;
+}
+
 strong {
   color: var(--body-font);
   text-transform: uppercase;
@@ -172,8 +176,7 @@ a:hover {
   max-width: 200px;
 }
 
-.project-description,
-.text-box {
+.project-description {
   text-align: left;
   padding: 20px;
 }
@@ -254,13 +257,11 @@ a:hover {
     margin-top: 0;
   }
 
-  h2 {
+  h2,
+  .project-content p,
+  .card-body h3,
+  .card-body p {
     text-align: center;
-  }
-
-  .text-box {
-    text-align: left;
-    font-size: 25px;
   }
 
   .hero-image {
@@ -269,20 +270,8 @@ a:hover {
     max-width: 120px;
   }
 
-  .project-description {
-    text-align: center;
-  }
-
   .card-deck img {
     display: none;
-  }
-
-  .project-description h3 {
-    font-size: 25px;
-  }
-
-  .project-description p {
-    text-align: center;
   }
 
   .content-columns img {
@@ -295,10 +284,6 @@ a:hover {
   .project-content {
     padding: 40px 20px;
     margin: 20px;
-    text-align: center;
-  }
-
-  .project-content p {
     text-align: center;
   }
 }
