@@ -32,6 +32,7 @@ h5,
 h6 {
   color: var(--body-font);
   font-family: var(--font-family);
+  text-align: left;
 }
 
 h1 {
@@ -53,6 +54,7 @@ p {
 
 h2 {
   color: var(--heading-font-family);
+  text-align: center;
 }
 
 ul {
@@ -76,7 +78,7 @@ strong {
 .hero {
   padding: 140px 20px;
   background: transparent;
-  text-align: center;
+  text-align: left;
 }
 
 .projects-row,
@@ -108,13 +110,22 @@ strong {
 
 .top-page {
   text-align: left;
-  margin: 0 auto;
   padding: 140px 20px;
   background: var(--neutral-color);
+  margin: 0 auto;
+  text-align: left;
 }
 
-.top-page h1 {
+.top-page-hero {
+  padding: 140px 20px;
+  background: transparent;
   text-align: left;
+  margin: 0 auto;
+  padding: 140px 20px;
+}
+.top-page-hero .container {
+  max-width: 1090px;
+  margin: 0 auto;
 }
 
 .header-columns {
@@ -124,6 +135,13 @@ strong {
 
 a:hover {
   color: var(--body-font);
+}
+
+.btn-primary {
+  background: var(--section-color);
+  color: #7471fb;
+  border-radius: 25px;
+  padding: 15px;
 }
 
 .main-links {
@@ -208,10 +226,15 @@ a:hover {
     margin: 0;
     text-align: center;
   }
-  .hero,
+  .top-page-hero,
   .top-page,
   .content-columns {
     padding: 40px 20px;
+    text-align: center;
+  }
+  .top-page-hero h1,
+  .top-page-hero h3 {
+    text-align: center;
   }
 
   .header {
@@ -231,25 +254,19 @@ a:hover {
     margin-top: 0;
   }
 
+  h2 {
+    text-align: center;
+  }
+
   .text-box {
     text-align: left;
     font-size: 25px;
-  }
-
-  .text-top {
-    text-align: left;
-    font-size: 32px;
-    line-height: 30px;
   }
 
   .hero-image {
     padding-bottom: 0px;
     margin: 0px auto;
     max-width: 120px;
-  }
-
-  .top-page {
-    text-align: left;
   }
 
   .project-description {
@@ -273,6 +290,16 @@ a:hover {
     text-align: center;
     margin: 0px;
     width: 100%;
+  }
+
+  .project-content {
+    padding: 40px 20px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .project-content p {
+    text-align: center;
   }
 }
 
