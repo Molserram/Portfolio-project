@@ -168,19 +168,18 @@ strong {
   padding-right: 70px;
 }
 
-.header-columns a {
-  margin-left: 0;
-}
-
 a:hover {
   color: var(--body-font);
 }
 
 .btn-primary {
+  margin-left: 0px;
   background: var(--section-color);
   color: #7471fb;
+  border-color: transparent;
   border-radius: 25px;
   padding: 15px;
+  transition: all 150ms ease-in-out;
 }
 
 .main-links,
@@ -205,6 +204,10 @@ a:hover {
   text-align: center;
   border: 1.5px solid;
   border-color: var(--secondary-color);
+}
+
+.contact-btn {
+  margin-left: 0;
 }
 
 .hero-image {
@@ -322,6 +325,10 @@ a:hover {
     padding: 40px 20px;
     margin: 20px;
     text-align: center;
+  }
+
+  .contact-btn {
+    margin: 0 auto;
   }
 }
 
